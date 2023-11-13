@@ -1,4 +1,4 @@
-# CALL-CENTRE-ANALYSIS
+# CONTACT-CENTRE-ANALYSIS
 
 # Introduction
 A Contact Center Manager is looking for transparency and insight into the data they have at the Contact Center. The manager wants an accurate overview of long term trends in customer and agent behaviour.
@@ -15,6 +15,6 @@ The Contact Center manager has sought a comprehensive data analysis to address t
 8.	Calls by Topic
 
 # Dataset
-The Contact center dataset consists of the following column names: Call Id,	Agent, Date, Call Time,Topic,Answered (YES/NO), Resolved  (YES/NO),Speed of answer in seconds, AvgTalkDuration, Satisfaction rating. The raw data contains 5000 rows and 10 columns.
+The Contact center dataset consists of the following column names: Call Id,	Agent, Date, Call Time, Topic, Answered (YES/NO), Resolved (YES/NO), Speed of answer in seconds, AvgTalkDuration, and Satisfaction rating. The raw data contains 5000 rows and 10 columns.
 
 # Data cleaning and transformation
