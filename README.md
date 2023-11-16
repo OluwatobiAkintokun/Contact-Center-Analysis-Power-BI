@@ -36,8 +36,14 @@ The data cleaning and transformation were carried out using Power BI. The follow
 
 Q1. Customer satisfaction rating
 
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/d4e5c519-c70f-41ff-9fe2-c84cc6ff52b3)
 
-Insight:
+
+Insight: Based on this analysis, the overall customer satisfaction rating of 3.40 suggests that there is room for improvement in customer satisfaction. My recommendations for the Contact Center Manager are listed below.
+- Identify specific areas in the customer journey where satisfaction is lower. This could include issues with wait times, agent responsiveness, or the resolution process. Figuring out where things are going wrong can guide the business in making fixes that address those exact issues.
+- Compare the current satisfaction rating with industry benchmarks or competitors. Understanding how your contact center performs relative to others in the industry can provide context and highlight areas for improvement. 
+- Create more communication channels such as live chat, email and web support. This helps the customers to access support easily through their preferred channels and receive timely and helpful responses.
+- The business should provide specific, concrete and practical suggestions for enhancing customer satisfaction. These could include process improvements, training programs for agents, technology upgrades, or changes in customer engagement strategies.
 
 
 Q2. Total calls Answered and Rejected
