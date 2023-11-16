@@ -9,7 +9,7 @@ The Contact Center manager has sought a comprehensive data analysis to address t
 1.	Customer satisfaction rating
 2.	Total calls Answered and Rejected
 3.	Total calls Resolved and Unresolved
-4.	Agent’s performance quadrant
+4.	Agent’s performance statistics
 5.	Average speed of answer
 6.	Number of Calls by Topic
 7.	Number of Calls by Month
@@ -69,10 +69,13 @@ Insight: Based on this analysis, 72.92% of customer's issues were resolved, whil
 
 
 
-Q4. Agent’s performance quadrant
+Q4. Agent’s performance statistics
+
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/975eb291-ce4c-492f-a10b-da18654b2def)
 
 
-Insight:
+
+Insight: Agent Performance Statistics refer to the quantitative metrics used to assess the individual performance of contact center agents. These statistics provide valuable insights into how well agents are performing their duties and contributing to the overall success of the contact center. The Agent Performance Statistics table above shows the total calls, calls answered, calls rejected, calls resolved, calls unresolved, satisfaction rating, avg speed of answer and call durations of each agent. These performance statistics is essential for the contact center manager to identify strengths and weaknesses in agent performance. This will enable the business to allocate resources effectively, and implement targeted training and improvement initiatives. Regularly analyzing these metrics enables data-driven decision-making and contributes to the overall success of the contact center in delivering exceptional customer service.
 
 
 Q5. Average speed of answer
