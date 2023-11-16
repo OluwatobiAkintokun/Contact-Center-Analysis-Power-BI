@@ -12,10 +12,9 @@ The Contact Center manager has sought a comprehensive data analysis to address t
 4.	Agent’s performance statistics
 5.	Average speed of answer
 6.	Number of Calls by Topic
-7.	Number of Calls by Month
-8.	Number of Calls Answered and Rejected by Month
-9.	Agent with the highest satisfaction rating
-10.	Agent with the least satisfaction rating
+7.	Number of Calls Answered and Rejected by Month
+8.	Agent with the highest satisfaction rating
+9.	Agent with the least satisfaction rating
 
 
 # Dataset
@@ -80,23 +79,26 @@ Insight: Agent Performance Statistics refer to the quantitative metrics used to 
 
 Q5. Average speed of answer
 
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/3bd3b023-68f1-45e9-b54a-ae9da38be02f)
 
-Insight:
+
+Insight: The Average Speed of Answer derived from this analysis is 67.22. Average Speed of Answer (ASA) is a key performance metric in a contact center, measuring the average time it takes for incoming calls to be answered by a live agent. ASA is a crucial indicator of how quickly customers can connect with a representative and is a significant factor in overall customer satisfaction. This is typically measured in seconds. The lower the Average Speed of Answer, the better, as it indicates that calls are being answered promptly. A low Average Speed of Answer contributes to a positive customer experience by minimizing the time customers spend in the queue and demonstrating responsiveness on the part of the contact center. To improve the Average Speed of Answer (ASA) for agents in contact center, consider the following recommendations:
+
+- Cross-train agents to handle a variety of inquiries and tasks. This increases flexibility in workforce management, allowing agents to assist in different areas during peak times, thereby reducing the overall wait time for customers. 
+- Use historical data and forecasting tools to better predict call volumes during peak hours. 
+- Adjust staffing levels accordingly to ensure that an adequate number of agents are available to handle incoming calls promptly.
 
 
 Q6. Number of Calls by Topic
 
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/25a4394c-9ea6-4e78-998c-9d4d73bc8202)
 
 Insight:
 
 
-Q7. Number of Calls by Month
+Q7. Number of Calls Answered and Rejected by Month
 
-
-Insight:
-
-
-Q8. Number of Calls Answered and Rejected by Month
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/a63bd906-10c3-4850-b512-255425892416)
 
 
 Insight:
