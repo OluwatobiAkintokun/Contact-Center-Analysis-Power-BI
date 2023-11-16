@@ -104,12 +104,18 @@ Q7. Number of Calls Answered and Rejected by Month
 Insight:
 
 
-Q9. Agent with the highest satisfaction rating
+Q8. Agent with the highest satisfaction rating
+
+
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/b65d8e81-0bf6-42e8-ae48-977703621152)
 
 
 Insight:
 
-Q10. Agent with the least satisfaction rating
+
+Q9. Agent with the least satisfaction rating
+
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/5180e1b7-2241-413c-8d76-6372b1a9ffd7)
 
 
 Insight:
