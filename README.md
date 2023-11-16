@@ -48,14 +48,25 @@ Insight: Based on this analysis, the overall customer satisfaction rating of 3.4
 
 Q2. Total calls Answered and Rejected
 
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/906e7103-2ed5-4581-a268-db6783af1ddd)
 
-Insight:
+
+Insight: My analysis reveals that 81% of calls that came in were answered while 19% of calls were rejected. Balancing the call answering and rejection rates is crucial for achieving a positive impact on customer satisfaction. Aiming for a high percentage of answered calls, such as 95% or higher, is generally a positive goal. This ensures that customers can easily reach a representative. A call rejection rate of 5% or lower is often considered acceptable. Rejected calls represent missed opportunities to address customer needs, resolve issues, or potentially make sales. This could contribute to a negative brand image, affecting customer trust and loyalty. My recommendations for the Contact Center Manager are listed below.
+- Evaluate the current staffing levels and consider adjusting them to better align with the call volume. If a significant number of calls are being rejected, it may indicate that the contact center is understaffed during peak times.
+- Consider implementing a call back option for customers who cannot be immediately accommodated. This can help manage high call volumes without compromising customer satisfaction, as customers are given the choice to be contacted when an agent is available.
+- Invest in self-service options such as interactive voice response (IVR) systems, comprehensive FAQs, or online knowledge bases. This can empower customers to find answers to common queries without the need for a live agent, reducing the overall call volume.
 
 
 Q3. Total calls Resolved and Unresolved
 
+![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/1d954e0f-842a-44cd-8c35-acd650121d71)
 
-Insight:
+
+Insight: Based on this analysis, 72.92% of customer's issues were resolved, while 27.08% were unresolved. A target resolution rate of 95% or higher is often considered good practice. The goal is to ensure that many customer issues are effectively resolved during the initial interaction, minimizing the need for follow-up contacts. Resolving customer issues promptly is crucial for customer retention. High unresolved rates may lead to customer churn, as dissatisfied customers may seek alternatives. Prioritizing issue resolution not only distinguishes businesses in the market but also contributes to attracting and retaining customers. To ensure that calls are resolved as quickly as possible in a contact center, here are my recommendations for the Contact Center Manager:
+- Use real-time analytics to regularly track key performance metrics, such as call volume, agent availability, and resolution times. This helps to analyse the reasons for unresolved calls, and also to implement strategies for improvement. This could involve additional training for agents, process improvements, or enhancements to self-service options. 
+- Invest in advanced call routing systems that direct calls to the most appropriate department. Efficient routing ensures that customers are connected to the right team quickly, minimizing transfer times and resolution delays.
+- Implement knowledge management systems that empower agents to quickly access relevant information and solutions. A centralized repository of FAQs, troubleshooting guides, knowledge hub, and best practices can quicken issue resolution and reduce the need for lengthy research.
+
 
 
 Q4. Agent’s performance quadrant
