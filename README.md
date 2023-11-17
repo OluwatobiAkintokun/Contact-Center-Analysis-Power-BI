@@ -19,20 +19,20 @@ The Contact Center manager has sought a comprehensive data analysis to address t
 
 
 # Dataset
-The Contact center dataset consists of the following column names: Call Id,	Agent, Date, Call Time, Topic, Answered (YES/NO), Resolved (YES/NO), Speed of answer in seconds, AvgTalkDuration, and Satisfaction rating. The raw data contains 5000 rows and 10 columns.
+The Contact center dataset consists of the following column names: Call Id,	Agent, Date, Call Time, Topic, Answered (Y/N), Resolved(Y/N), Speed of answer in seconds, AvgTalkDuration, and Satisfaction rating. The raw data contains 5000 rows and 10 columns.
 
 # Data cleaning and transformation
 The data cleaning and transformation were carried out using Power BI. The following actions were taken to enhance the quality and structure of the data.
 
+- I updated the 'Answered' column, by replacing 'Y' with 'Answered' and 'N' with 'Abandoned'.
 - I updated the 'Resolved' column, by replacing 'Y' with 'Resolved' and 'N' with 'Unresolved'.
-- I updated the 'Answered' column, by replacing 'Y' with 'Answered' and 'N' with 'Not Answered'.
 - I renamed the sheet from Sheet1 to ‘Contact Center Performance’.
 - I changed the data type for ‘Time’ and ‘AvgTalkDuration’ columns to a time data type.
-- I created a measure using DAX to determine the total number of calls. The formular used for this is: Total Calls = COUNT('Contact Center Performance'[Answered]).
-- I created a new column to calculate total number of calls answered.  The formular used for this is: Calls Answered = IF('Contact Center Performance'[Answered] ="Answered",1,0).
-- I created a new column to calculate total number of calls abandoned. The formular used for this is: Calls Abandoned = IF('Contact Center Performance'[Answered] ="Not Answered",1,0). 
-- I created a new column to calculate total number of calls resolved. The formular used for this is: Call Resolved = IF('Contact Center Performance'[Resolved]="Resolved",1,0).
-- I created a new column to calculate total number of calls unresolved. The formular used for this is: Calls Unresolved = IF('Contact Center Performance'[Resolved]="Unresolved",1,0).
+- I used DAX to create a measure that calculated the total number of calls. The formular used for this is: Total Calls = COUNT('Contact Center Performance'[Answered]).
+- I created a new column to calculate total number of calls answered. The contents of this column consists of nominal data (Answered and Abandoned). This was transformed into binary digit using this formular. Calls Answered = IF('Contact Center Performance'[Answered] ="Answered",1,0).
+- I created a new column to calculate total number of calls abandoned. The contents of this column consists of nominal data (Answered and Abandoned). This was transformed into binary digit using this formular. Calls Abandoned = IF('Contact Center Performance'[Answered] ="Abandoned",1,0). 
+- I created a new column to calculate total number of calls resolved. The contents of this column consists of nominal data (Resolved and Unresolved). This was transformed into binary digit using this formular.Call Resolved = IF('Contact Center Performance'[Resolved]="Resolved",1,0).
+- I created a new column to calculate total number of calls unresolved. The contents of this column consists of nominal data - Y (Yes) and N (No). This was transformed into binary digit using this formular. Calls Unresolved = IF('Contact Center Performance'[Resolved]="Unresolved",1,0).
 
 # Data analysis, insights and recommendation
 
@@ -99,20 +99,24 @@ Q6. Number of Calls by Topic
 
 ![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/25a4394c-9ea6-4e78-998c-9d4d73bc8202)
 
-Insight:
+Insight: From this analysis, the breakdown of calls by segment reveals the distribution of customer inquiries across different topics. A significant portion of calls is related to streaming services, suggesting a high level of customer engagement or potential issues with these services. A considerable number of calls are related to technical support, indicating that customers are encountering technical issues or challenges. A substantial percentage of calls involve payment-related inquiries, highlighting the importance of a seamless and secure payment process. A notable portion of calls is related to administrative support, indicating a need for assistance with account management or general inquiries. A significant number of calls are related to contract inquiries, suggesting that customers may have questions or concerns about the terms and conditions. By addressing the specific needs highlighted in each segment and implementing these recommendations, the contact center can enhance customer satisfaction, streamline support processes, and potentially reduce the overall volume of calls. Regularly monitoring call data and customer feedback will provide valuable insights for continuous improvement.
 
+#
 
 Q7. Number of Calls Answered and Abandoned by Month
 
 
 ![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/7510d577-c239-4477-a758-9e89319b615b)
 
+Insight: The highest number of calls, both answered and abandoned, occurred in the month of January. It was the month with the largest call volume.
 
 # 
 
 Q8. Number of Calls Resolved and Unresolved by Month
 
 ![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/496ac534-bec5-49bc-858f-d1a6371ef575)
+
+Insight: January experienced the highest call volume, encompassing both resolved and unresolved calls. It was the month with the most substantial number of calls.
 
 # 
 
@@ -122,7 +126,7 @@ Q9. Agent with the highest satisfaction rating
 ![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/b65d8e81-0bf6-42e8-ae48-977703621152)
 
 
-Insight:
+Insight:Based on this analysis, Martha stands out as the agent with the highest satisfaction rating, achieving a commendable score of 3.47. This is indicative of her exceptional performance in meeting or exceeding customer's expectations.
 
 # 
 
@@ -131,10 +135,11 @@ Q10. Agent with the least satisfaction rating
 ![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/5180e1b7-2241-413c-8d76-6372b1a9ffd7)
 
 
-Insight:
+Insight:Joe received the lowest satisfaction rating among agents, achieving a score of 3.33. The impact of this suggests areas for improvement in Joe's performance. While a rating of 3.33 is still above average, it indicates that there may be aspects of Joe's interactions with customers that need attention. Addressing these areas can contribute to higher customer satisfaction.
 
 
 # Dashboard
+
 I created a user-friendly and interactive dashboard with Power BI to showcase the outcomes of the data analysis.
 
 ![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/d2176255-585a-4906-b439-659af982674f)
