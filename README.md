@@ -28,7 +28,7 @@ The data cleaning and transformation were carried out using Power BI. The follow
 - I updated the 'Answered' column, by replacing 'Y' with 'Answered' and 'N' with 'Not Answered'.
 - I renamed the sheet from Sheet1 to ‘Contact Center Performance’.
 - I changed the data type for ‘Time’ and ‘AvgTalkDuration’ columns to a time data type.
-- I created a measure using DAX expression to determine the total number of calls. The formular used for this is: Total Calls = COUNT('Contact Center Performance'[Answered]).
+- I created a measure using DAX to determine the total number of calls. The formular used for this is: Total Calls = COUNT('Contact Center Performance'[Answered]).
 - I created a new column to calculate total number of calls answered.  The formular used for this is: Calls Answered = IF('Contact Center Performance'[Answered] ="Answered",1,0).
 - I created a new column to calculate total number of calls abandoned. The formular used for this is: Calls Abandoned = IF('Contact Center Performance'[Answered] ="Not Answered",1,0). 
 - I created a new column to calculate total number of calls resolved. The formular used for this is: Call Resolved = IF('Contact Center Performance'[Resolved]="Resolved",1,0).
