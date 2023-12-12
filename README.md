@@ -1,5 +1,3 @@
-# CONTACT-CENTRE-ANALYSIS
-
 # Introduction
 A Contact Center Manager is looking for transparency and insight into the data they have at the Contact Center. The manager wants an accurate overview of long term trends in customer and agent behaviour.
 
