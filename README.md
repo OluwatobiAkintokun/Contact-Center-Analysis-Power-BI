@@ -17,7 +17,7 @@ The Contact Center manager has sought a comprehensive data analysis to address t
 
 
 # Dataset
-The Contact center dataset consists of the following column names: Call Id,	Agent, Date, Call Time, Topic, Answered (Y/N), Resolved(Y/N), Speed of answer in seconds, AvgTalkDuration, and Satisfaction rating. The raw data contains 5000 rows and 10 columns.[Download Here]()
+The Contact center dataset consists of the following column names: Call Id,	Agent, Date, Call Time, Topic, Answered (Y/N), Resolved(Y/N), Speed of answer in seconds, AvgTalkDuration, and Satisfaction rating. The raw data contains 5000 rows and 10 columns.[Download Here](https://github.com/OluwatobiAkintokun/Contact-Center-Analysis---POWER-BI/blob/main/Contact-Center-Dataset.xlsx)
 
 # Data cleaning and transformation
 The data cleaning and transformation were carried out using Power BI. The following actions were taken to enhance the quality and structure of the data.
