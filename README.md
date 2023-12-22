@@ -134,7 +134,7 @@ Insight:Joe received the lowest satisfaction rating among agents, achieving a sc
 
 # Dashboard
 
-I created a user-friendly and interactive dashboard with Power BI to showcase the outcomes of the data analysis.
+I created a user-friendly and interactive dashboard with Power BI to showcase the outcomes of the data analysis. [View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTNhOWFlZGMtNjUxYS00MDhiLThlMDYtYjY3NTBmOGI5MzlmIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ![image](https://github.com/OluwatobiAkintokun/CONTACT-CENTRE-ANALYSIS/assets/137109080/d2176255-585a-4906-b439-659af982674f)
 
